@@ -1,3 +1,4 @@
+CFLAGS=-O2 -Wall
 reciprocal: main.o reciprocal.o
 	g++ $(CFLAGS) -o reciprocal main.o reciprocal.o
 
